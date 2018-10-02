@@ -1,0 +1,33 @@
+Packaging Notes
+===============
+
+This package is basically a raw dump of rubygems asciidoctor-pdf installation.
+
+Inside a cowbuilder, download and install asciidoctor-pdf with rubygems:
+
+```
+apt-get install rubygems
+gem install asciidoctor-pdf --pre
+gem install rouge
+```
+
+(You might eventually need to setup https proxy, depending on your network
+setup)
+
+Then copy files into a bind-mounted directory $BIND:
+
+```
+mkdir /$BIND/asciidoctor-pdf-$VERSION
+cp -a /var/lib/gems/2.3.0/{gems,specifications} /$BIND/asciidoctor-pdf-$VERSION/
+mkdir /$BIND/asciidoctor-pdf-$VERSION/bin/
+cp -a /usr/local/bin/asciidoctor* /$BIND/asciidoctor-pdf-$VERSION/bin/
+chown $USER: -R /$BIND/asciidoctor-pdf-$VERSION/
+```
+
+Exit the cowbuilder environment.
+
+Then the asciidoctor-pdf-$VERSION can be used to create an orig tarball:
+
+```
+tar -czf asciidoctor-pdf-$VERSION.orig.tar.gz asciidoctor-pdf-$VERSION
+```

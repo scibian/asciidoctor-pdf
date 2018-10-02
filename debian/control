@@ -1,0 +1,21 @@
+Source: asciidoctor-pdf
+Section: doc
+Priority: optional
+Maintainer: Scibian Project <packaging@scibian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Browser: https://github.com/scibian/asciidoctor-pdf
+Vcs-Git: https://github.com/scibian/asciidoctor-pdf.git
+
+Package: asciidoctor-pdf
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ruby | ruby-interpreter,
+ ruby2.3,
+ rubygems
+Conflicts: asciidoctor
+Breaks: asciidoctor
+Description: Ugly package for asciidoctor-pdf
+ This package provides asciidoctor-pdf and it has been build in a very ugly
+ way.

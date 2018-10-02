@@ -1,0 +1,21 @@
+From: =?utf-8?q?R=C3=A9mi_Palancher?= <remi-externe.palancher@edf.fr>
+Date: Fri, 16 Feb 2018 15:02:17 +0100
+Subject: Fix privacy-breach-google-plus
+
+This patch removes usage of Google API through some Javascript code
+useless in this package.
+---
+ gems/asciidoctor-1.5.6.1/test/fixtures/basic-docinfo-footer.html | 6 ------
+ 1 file changed, 6 deletions(-)
+
+diff --git a/gems/asciidoctor-1.5.7.1/test/fixtures/basic-docinfo-footer.html b/gems/asciidoctor-1.5.7.1/test/fixtures/basic-docinfo-footer.html
+index 0ac3b99..e69de29 100644
+--- a/gems/asciidoctor-1.5.7.1/test/fixtures/basic-docinfo-footer.html
++++ b/gems/asciidoctor-1.5.7.1/test/fixtures/basic-docinfo-footer.html
+@@ -1,6 +0,0 @@
+-<script>
+-(function() {
+-  var p1 = document.createElement('script'); p1.async = true; p1.src = 'https://apis.google.com/js/plusone.js';
+-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(p1, s);
+-})();
+-</script>

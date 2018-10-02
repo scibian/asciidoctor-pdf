@@ -1,0 +1,525 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: asciidoctor-pdf
+Source: http://asciidoctor.org/
+
+Files: bin/* gems/asciidoctor-* gem/asciidoctor-pdf-* specifications/asciidoctor-*
+Copyright: 2014-2018 OpenDevise Inc. and the Asciidoctor Project
+License: MIT
+
+Files: gems/Ascii85-* specifications/Ascii85-*
+Copyright: 2009 Johannes Holzfuß <DataWraith@web.de>
+License: Expat
+
+Files: gems/addressable-* specifications/addressable-*
+Copyright: Bob Aman
+License: Apache-2.0
+
+Files: gems/afm-* specifications/afm-*
+Copyright: 2009 Jan Krutisch <jan@krutisch.de>
+License: Expat
+
+Files: gems/afm-*/test/fixtures/Vera.afm
+Copyright: 2003 Bitstream, Inc
+License: Bitstream-Vera
+Comment: derived work from Bitstream Vera TTF font
+ obtained by running /usr/bin/ttf2afm (from ttf2ufm package) on
+ /usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf
+ (from ttf-bitstream-vera)
+
+Files: gems/css_parser-* specifications/css_parser-*
+Copyright: 2007-2011 Alex Dunae
+License: Expat
+
+Files: gems/hashery-*/* specifications/hashery-*
+Copyright: 2010 Rubyworks
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/association.rb
+Copyright: 2005 Rubyworks, Thomas Sawer
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/dictionary.rb
+Copyright: 2005 Jan Molic
+License: BSD-2-clause
+Comment: derived work of http://codeforpeople.com/lib/ruby/orderedhash
+  public domain
+
+Files: gems/hashery-*/lib/hashery/fuzzy_hash.rb
+Copyright: 2009 Joshua Hull
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/ini_hash.rb
+Copyright: 2007 Jeena Paradies <info@jeenaparadies.net>
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/linked_list.rb
+Copyright: 2006 Kirk Haines <khaines@enigo.com>
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/lru_hash.rb
+Copyright: 2010 Robert Klemme
+License: BSD-2-clause
+
+Files: gems/hashery-*/lib/hashery/path_hash.rb
+Copyright: 2006 BehindLogic (http://hash_magic.rubyforge.org)
+License: BSD-2-clause
+
+Files: gems/pdf-core-* specifications/pdf-core-*
+Copyright: 2008-2014 Gregory Brown <gregory.t.brown@gmail.com>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/pdf-core-*/lib/pdf/core/annotations.rb gems/pdf-core-*/lib/pdf/core/destinations.rb gems/pdf-core-*/lib/pdf/core/name_tree.rb gems/pdf-core-*/lib/pdf/core/object_store.rb
+Copyright: 2008-2009 Jamis Buck
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/pdf-core-*/lib/pdf/core/filters.rb gems/pdf-core-*/lib/pdf/core/stream.rb
+Copyright: 2013 Alexander Mankuta
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/pdf-core-*/lib/pdf/core/graphics_state.rb
+Copyright: 2010 Michael Witrant
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/pdf-core-*/lib/pdf/core/text.rb
+Copyright: 2010 Daniel Nelson <dnelson@bluejade.com>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/pdf-reader-* specifications/pdf-reader-*
+Copyright: Copyright 2006-2009 Peter Jones <pjones@pmade.com>
+           Copyright 2008-2010 James Healy <jimmy@deefa.com>
+License: Expat
+
+Files: gems/pdf-reader-*/lib/pdf/reader/afm/*
+Copyright: © 1985-1997, Adobe Systems Incorporated
+License: other
+ Core 14 AFM Files - ReadMe
+ This file and the 14 PostScript(R) AFM files it accompanies may be used,
+ copied, and distributed for any purpose and without charge, with or without
+ modification, provided that all copyright notices are retained; that the AFM
+ files are not distributed without this file; that all modifications to this
+ file or any of the AFM files are prominently noted in the modified file(s);
+ and that this paragraph is not modified. Adobe Systems has no responsibility
+ or obligation to support the use of the AFM files.
+
+Files: gems/polyglot-* specifications/polyglot-*
+Copyright: 2007 Clifford Heath <cjheath@rubyforge.org>
+License: MIT
+
+Files: gems/prawn-2* specifications/prawn-2*
+Copyright: 2008-2014 Gregory Brown <gregory.t.brown@gmail.com>
+           2009-2011 Brad Ediger <brad@bradediger.com>
+           2009-2011 Daniel Nelson <dnelson@bluejade.com>
+           2011 Jonathan Greenberg <greenberg@entryway.net>
+           2008-2011 James Healy <jimmy@deefa.com>
+           2008-2009 Jamis Buck <jamis@38signals.com>
+License: Ruby or GPL-2 or GPL-3
+Comment: the list of all contributors to prawn can be found at
+ https://github.com/sandal/prawn/contributors
+
+Files: gems/prawn-2*/lib/prawn/measurements.rb gems/prawn-2*/lib/prawn/measurement_extensions.rb
+Copyright: 2008 Florian Witteler
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-2*/lib/prawn/document/column_box.rb
+Copyright: Paul Ostazeski <paul@intridea.com>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-2*/lib/prawn/graphics/transformation.rb
+Copyright: 2010 Michael Witrant <mike@lepton.fr>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-2*/lib/prawn/graphics/patterns.rb
+Copyright: 2009 Wojciech Piekutowski <wojciech@piekutowski.net>
+           2012 Alexander Mankuta <cheba@pointlessone.org>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-2*/data/fonts/*.afm
+Copyright: Copyright (c) 1985, 1987, 1989, 1990, 1997 Adobe Systems Incorporated
+License: Adobe-fonts
+
+Files: gems/prawn-icon-* specifications/prawn-icon-*
+Copyright: Copyright (c) 2014 Jesse Doyle
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-svg-* specifications/prawn-svg-*
+Copyright: Copyright (c) 2010-2013 Roger Nesbitt
+License: MIT
+
+Files: gems/prawn-table-* specifications/prawn-table-*
+Copyright: 2009-2011 Brad Ediger <brad@bradediger.com>
+           2009-2014 Gregory Brown <gregory.t.brown@gmail.com>
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/prawn-templates-* specifications/prawn-templates-*
+Copyright: 2014 James Healy
+License: Ruby or GPL-2 or GPL-3
+
+Files: gems/public_suffix-* specifications/public_suffix-*
+Copyright: 2009-2017 Simone Carletti
+License: Expat
+
+Files: gems/rouge-* specifications/rouge-*
+Copyright: 2012 Jay Adkisson
+License: Expat
+
+Files: gems/ruby-rc4-* specifications/ruby-rc4-*
+Copyright: 2010 Caige Nichols <caigesn@gmail.com>
+           2010 Max Prokopiev <max-prokopiev@yandex.ru>
+           2010 Aleksandar Simic <asimic@gmail.com>
+License: Expat
+
+Files: gems/safe_yaml-* specifications/safe_yaml-*
+Copyright: 2013 Dan Tao <daniel.tao@gmail.com>
+License: Expat
+
+Files: gems/thread_safe-* specifications/thread_safe-*
+Copyright: 2013 Charles Oliver Nutter
+           2013 thedarkone
+License: Apache-2.0
+
+Files: gems/thread_safe-*/ext/org/jruby/ext/thread_safe/jsr166?/*
+Copyright: dedicated to the public domain (CC0) by Doug Lea
+License: CC0
+
+Files: gems/treetop-* specifications/treetop-*
+Copyright: 2007 Nathan Sobo
+License: Expat
+
+Files: gems/ttfunk-* specifications/ttfunk-*
+Copyright: Copyright 2008, 2011 Gregory Brown <gregory.t.brown@gmail.com>
+           Copyright 2008 Jia Wu <wujia123@yahoo.com>
+           Copyright 2008, 2009 Jamis Buck  <jamis@37signals.com>
+           Copyright 2010 Steve Sloan <steve@finagle.org>
+           Copyright 2011 James Healy <jimmy@deefa.com>
+           Copyright 2011 Daniel Nelson <dnelson+git@bluejade.com>
+           Copyright 2011 Lucas Florio <lucasefe@gmail.com>
+           Copyright 2011 Brad Ediger <brad.ediger@madriska.com>
+License: Ruby or GPL-2 or GPL-3
+
+License: Adobe-fonts
+ This file and the 14 PostScript(R) AFM files it accompanies may be
+ used, copied, and distributed for any purpose and without charge, with
+ or without modification, provided that all copyright notices are
+ retained; that the AFM files are not distributed without this file;
+ that all modifications to this file or any of the AFM files are
+ prominently noted in the modified file(s); and that this paragraph is
+ not modified. Adobe Systems has no responsibility or obligation to
+ support the use of the AFM files.
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache License 2.0 can be found at
+  /usr/share/common-licenses/Apache-2.0.
+
+License: Bitstream-Vera
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of the fonts accompanying this license ("Fonts") and associated
+ documentation files (the "Font Software"), to reproduce and distribute
+ the Font Software, including without limitation the rights to use, copy,
+ merge, publish, distribute, and/or sell copies of the Font Software, and
+ to permit persons to whom the Font Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright and trademark notices and this permission notice
+ shall be included in all copies of one or more of the Font Software
+ typefaces.
+ .
+ The Font Software may be modified, altered, or added to, and in
+ particular the designs of glyphs or characters in the Fonts may be
+ modified and additional glyphs or characters may be added to the Fonts,
+ only if the fonts are renamed to names not containing either the words
+ "Bitstream" or the word "Vera".
+ .
+ This License becomes null and void to the extent applicable to Fonts or
+ Font Software that has been modified and is distributed under the
+ "Bitstream Vera" names.
+ .
+ The Font Software may be sold as part of a larger software package but
+ no copy of one or more of the Font Software typefaces may be sold by
+ itself.
+ .
+ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+ COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL
+ BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL,
+ OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT
+ SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+ .
+ Except as contained in this notice, the names of Gnome, the Gnome
+ Foundation, and Bitstream Inc., shall not be used in advertising or
+ otherwise to promote the sale, use or other dealings in this Font
+ Software without prior written authorization from the Gnome Foundation
+ or Bitstream Inc., respectively. For further information, contact:
+ <fonts@gnome.org>.
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+    1. Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+ .
+    2. Redistributions in binary form must reproduce the above copyright
+       notice, this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+ AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR  SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0
+ Creative Commons Legal Code
+ .
+ CC0 1.0 Universal
+ .
+     CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+     LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+     ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+     INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+     REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+     PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+     THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+     HEREUNDER.
+ .
+ Statement of Purpose
+ .
+ The laws of most jurisdictions throughout the world automatically confer
+ exclusive Copyright and Related Rights (defined below) upon the creator
+ and subsequent owner(s) (each and all, an "owner") of an original work of
+ authorship and/or a database (each, a "Work").
+ .
+ Certain owners wish to permanently relinquish those rights to a Work for
+ the purpose of contributing to a commons of creative, cultural and
+ scientific works ("Commons") that the public can reliably and without fear
+ of later claims of infringement build upon, modify, incorporate in other
+ works, reuse and redistribute as freely as possible in any form whatsoever
+ and for any purposes, including without limitation commercial purposes.
+ These owners may contribute to the Commons to promote the ideal of a free
+ culture and the further production of creative, cultural and scientific
+ works, or to gain reputation or greater distribution for their Work in
+ part through the use and efforts of others.
+ .
+ For these and/or other purposes and motivations, and without any
+ expectation of additional consideration or compensation, the person
+ associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+ is an owner of Copyright and Related Rights in the Work, voluntarily
+ elects to apply CC0 to the Work and publicly distribute the Work under its
+ terms, with knowledge of his or her Copyright and Related Rights in the
+ Work and the meaning and intended legal effect of CC0 on those rights.
+ .
+ 1. Copyright and Related Rights. A Work made available under CC0 may be
+ protected by copyright and related or neighboring rights ("Copyright and
+ Related Rights"). Copyright and Related Rights include, but are not
+ limited to, the following:
+ .
+   i. the right to reproduce, adapt, distribute, perform, display,
+      communicate, and translate a Work;
+  ii. moral rights retained by the original author(s) and/or performer(s);
+ iii. publicity and privacy rights pertaining to a person's image or
+      likeness depicted in a Work;
+  iv. rights protecting against unfair competition in regards to a Work,
+      subject to the limitations in paragraph 4(a), below;
+   v. rights protecting the extraction, dissemination, use and reuse of data
+      in a Work;
+  vi. database rights (such as those arising under Directive 96/9/EC of the
+      European Parliament and of the Council of 11 March 1996 on the legal
+      protection of databases, and under any national implementation
+      thereof, including any amended or successor version of such
+      directive); and
+ vii. other similar, equivalent or corresponding rights throughout the
+      world based on applicable law or treaty, and any national
+      implementations thereof.
+ .
+ 2. Waiver. To the greatest extent permitted by, but not in contravention
+ of, applicable law, Affirmer hereby overtly, fully, permanently,
+ irrevocably and unconditionally waives, abandons, and surrenders all of
+ Affirmer's Copyright and Related Rights and associated claims and causes
+ of action, whether now known or unknown (including existing as well as
+ future claims and causes of action), in the Work (i) in all territories
+ worldwide, (ii) for the maximum duration provided by applicable law or
+ treaty (including future time extensions), (iii) in any current or future
+ medium and for any number of copies, and (iv) for any purpose whatsoever,
+ including without limitation commercial, advertising or promotional
+ purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+ member of the public at large and to the detriment of Affirmer's heirs and
+ successors, fully intending that such Waiver shall not be subject to
+ revocation, rescission, cancellation, termination, or any other legal or
+ equitable action to disrupt the quiet enjoyment of the Work by the public
+ as contemplated by Affirmer's express Statement of Purpose.
+ .
+ 3. Public License Fallback. Should any part of the Waiver for any reason
+ be judged legally invalid or ineffective under applicable law, then the
+ Waiver shall be preserved to the maximum extent permitted taking into
+ account Affirmer's express Statement of Purpose. In addition, to the
+ extent the Waiver is so judged Affirmer hereby grants to each affected
+ person a royalty-free, non transferable, non sublicensable, non exclusive,
+ irrevocable and unconditional license to exercise Affirmer's Copyright and
+ Related Rights in the Work (i) in all territories worldwide, (ii) for the
+ maximum duration provided by applicable law or treaty (including future
+ time extensions), (iii) in any current or future medium and for any number
+ of copies, and (iv) for any purpose whatsoever, including without
+ limitation commercial, advertising or promotional purposes (the
+ "License"). The License shall be deemed effective as of the date CC0 was
+ applied by Affirmer to the Work. Should any part of the License for any
+ reason be judged legally invalid or ineffective under applicable law, such
+ partial invalidity or ineffectiveness shall not invalidate the remainder
+ of the License, and in such case Affirmer hereby affirms that he or she
+ will not (i) exercise any of his or her remaining Copyright and Related
+ Rights in the Work or (ii) assert any associated claims and causes of
+ action with respect to the Work, in either case contrary to Affirmer's
+ express Statement of Purpose.
+ .
+ 4. Limitations and Disclaimers.
+ .
+  a. No trademark or patent rights held by Affirmer are waived, abandoned,
+     surrendered, licensed or otherwise affected by this document.
+  b. Affirmer offers the Work as-is and makes no representations or
+     warranties of any kind concerning the Work, express, implied,
+     statutory or otherwise, including without limitation warranties of
+     title, merchantability, fitness for a particular purpose, non
+     infringement, or the absence of latent or other defects, accuracy, or
+     the present or absence of errors, whether or not discoverable, all to
+     the greatest extent permissible under applicable law.
+  c. Affirmer disclaims responsibility for clearing rights of other persons
+     that may apply to the Work or any use thereof, including without
+     limitation any person's Copyright and Related Rights in the Work.
+     Further, Affirmer disclaims responsibility for obtaining any necessary
+     consents, permissions or other rights required for any use of the
+     Work.
+  d. Affirmer understands and acknowledges that Creative Commons is not a
+     party to this document and has no duty or obligation with respect to
+     this CC0 or use of the Work.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991.
+ .
+ On Debian systems, the complete text of version 2 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 3 dated June, 2007.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: Ruby
+ 1. You may make and give away verbatim copies of the source form of the
+    software without restriction, provided that you duplicate all of the
+    original copyright notices and associated disclaimers.
+ .
+ 2. You may modify your copy of the software in any way, provided that
+    you do at least ONE of the following:
+ .
+      a) place your modifications in the Public Domain or otherwise
+         make them Freely Available, such as by posting said
+   modifications to Usenet or an equivalent medium, or by allowing
+   the author to include your modifications in the software.
+ .
+      b) use the modified software only within your corporation or
+         organization.
+ .
+      c) rename any non-standard executables so the names do not conflict
+   with standard executables, which must also be provided.
+ .
+      d) make other distribution arrangements with the author.
+ .
+ 3. You may distribute the software in object code or executable
+    form, provided that you do at least ONE of the following:
+ .
+      a) distribute the executables and library files of the software,
+   together with instructions (in the manual page or equivalent)
+   on where to get the original distribution.
+ .
+      b) accompany the distribution with the machine-readable source of
+   the software.
+ .
+      c) give non-standard executables non-standard names, with
+         instructions on where to get the original software distribution.
+ .
+      d) make other distribution arrangements with the author.
+ .
+ 4. You may modify and include the part of the software into any other
+    software (possibly commercial).
+ .
+ 5. The scripts and library files supplied as input to or produced as
+    output from the software do not automatically fall under the
+    copyright of the software, but belong to whomever generated them,
+    and may be sold commercially, and may be aggregated with this
+    software.
+ .
+ 6. THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
+    IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+    WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+    PURPOSE.
+
+Files: debian/*
+Copyright: 2018 Scibian Project <legal@scibian.org>
+License: GPL-3+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

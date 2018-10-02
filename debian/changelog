@@ -1,0 +1,5 @@
+asciidoctor-pdf (1.5.0~alpha16-0sci9u1) scibian9; urgency=low
+
+  * Initial release.
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Wed, 12 Sep 2018 09:51:43 +0200

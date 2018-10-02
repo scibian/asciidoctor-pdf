@@ -1,0 +1,3 @@
+bin		usr
+gems		var/lib/gems/2.3.0
+specifications	var/lib/gems/2.3.0
