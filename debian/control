@@ -12,7 +12,7 @@ Architecture: any
 Depends:
  ${misc:Depends},
  ruby | ruby-interpreter,
- ruby2.3,
+ ruby2.5,
  rubygems
 Conflicts: asciidoctor
 Breaks: asciidoctor
